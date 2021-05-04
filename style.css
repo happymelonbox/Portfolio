@@ -1,0 +1,15 @@
+
+
+img {
+    border: 2px solid darkblue;
+    border-radius: 50px;
+}
+
+h1 {
+    border: 2px solid darkblue;
+}
+
+strong {
+    color: rgb(111, 177, 73);
+    text-decoration: underline;
+}
