@@ -14,3 +14,11 @@ strong {
     text-decoration: underline;
 }
 
+#github:visited{
+    color: black
+}
+
+#contact:visited{
+    color: black;
+}
+
