@@ -27,6 +27,7 @@ function helloTog(){
         me.style.display = 'none';
         footer.style.display = 'block';
         ralph.style.display = 'block';
+        innerContact.style.display = 'none';
     }
 }
 hello.addEventListener('click', helloTog)
