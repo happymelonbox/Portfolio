@@ -4,6 +4,7 @@ html {
     height: 100%;
     margin: 0;
 }
+
 img {
     border: 2px solid darkblue;
     border-radius: 50px;
@@ -21,7 +22,9 @@ strong {
 footer {
     height: 100px;
     display: block;
+    position: fixed;
     margin-top: 5px;
+    top: 600px;
     bottom: 0;
     left: 0;
 }
@@ -32,6 +35,14 @@ footer {
 
 #contact:visited{
     color: black;
+}
+
+#hello {
+    margin-top: 20px;
+}
+
+#contactMe {
+    margin-top: 20px;
 }
 
 #me {
