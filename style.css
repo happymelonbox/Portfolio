@@ -16,7 +16,7 @@ h1 {
     font-size: 50px;
 }
 
-strong {
+#amateur {
     color: rgb(111, 177, 73);
     text-decoration: underline;
 }
@@ -64,4 +64,14 @@ footer {
 
 #innerContact {
     display: none;
+}
+
+#acknowledge {
+    text-decoration: none;
+    color: black;
+}
+
+#acknowledge:visited {
+    text-decoration: none;
+    color: black;
 }
