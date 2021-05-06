@@ -30,6 +30,7 @@ h1 {
 footer {
     height: 100px;
     display: block;
+    background-color: lightskyblue;
     position: fixed;
     margin-top: 5px;
     top: 600px;

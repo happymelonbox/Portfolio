@@ -12,6 +12,7 @@ const ralph = document.getElementById('ralph');
 contact.style.textDecoration = 'none';
 github.style.textDecoration = 'none';
 pageBody.backgroundColor = 'lightskyblue';
+pageBody.height = '1000px';
 pageBody.textAlign = "center";
 contactMe.style.cursor = 'pointer';
 hello.style.cursor = 'pointer';
@@ -21,13 +22,12 @@ helloTog();
 function helloTog(){
     if (me.style.display === 'none'){
     me.style.display = 'block';
-    footer.style.display = 'none'
     ralph.style.display = 'none';
+    innerContact.style.display = 'none';
     } else {
         me.style.display = 'none';
         footer.style.display = 'block';
         ralph.style.display = 'block';
-        innerContact.style.display = 'none';
     }
 }
 hello.addEventListener('click', helloTog)
