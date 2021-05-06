@@ -6,7 +6,7 @@ html {
     font-family: 'Work Sans', sans-serif;
 }
 
-img {
+#picofme {
     border: 2px solid darkblue;
     border-radius: 50px;
 }
@@ -29,6 +29,12 @@ footer {
     top: 600px;
     bottom: 0;
     left: 0;
+}
+
+#ralph {
+    height: 150px;
+    width: auto;
+    margin-top: 50px;
 }
 
 #github:visited{
