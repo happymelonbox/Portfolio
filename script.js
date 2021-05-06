@@ -7,6 +7,7 @@ const innerContact = document.getElementById('innerContact');
 const hello = document.getElementById('hello');
 const footer = document.getElementById('footer');
 const ack = document.getElementById('acknowledge')
+const ralph = document.getElementById('ralph');
 
 contact.style.textDecoration = 'none';
 github.style.textDecoration = 'none';
@@ -21,9 +22,11 @@ function helloTog(){
     if (me.style.display === 'none'){
     me.style.display = 'block';
     footer.style.display = 'none'
+    ralph.style.display = 'none';
     } else {
         me.style.display = 'none';
         footer.style.display = 'block';
+        ralph.style.display = 'block';
     }
 }
 hello.addEventListener('click', helloTog)
@@ -32,8 +35,10 @@ contactTog();
 function contactTog(){
     if (innerContact.style.display === 'none'){
     innerContact.style.display = 'block';
+    ralph.style.display = 'none';
     } else {
         innerContact.style.display = 'none';
+        ralph.style.display = 'block';
     }
 }
 contactMe.addEventListener('click', contactTog)
